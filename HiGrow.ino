@@ -160,7 +160,7 @@ void loop() {
 void mqttconnect() {
   while (!client.connected()) {                   // Try to connect to MQTT
     Serial.print("MQTT connecting...");
-    if (client.connect(CLIENT)) {                 // Connect
+    if (client.connect(CLIENT, MQTT_USERNAME, MQTT_PASSWORD)) {    // Connect
       Serial.println("connected");
     } else {
       Serial.print("failed, status code =");
