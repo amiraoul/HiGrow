@@ -20,4 +20,4 @@ If you need more information to this board visit https://higrow.tech
 
 
 # Changes to original repo:
-- added possibility to insert username and password to mqtt server
+- added possibility to insert username and password of mqtt server
